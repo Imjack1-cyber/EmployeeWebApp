@@ -1,0 +1,117 @@
+.button.red {
+	background-color: red; /* Red background for this button */
+	border: 1px solid #333; /* Dark red border for contrast */
+	padding: 3px 3px;
+	font-size: 16px;
+	color: #333;
+	text-align: center;
+	text-decoration: none; /* Remove underline */
+	border-radius: 4px; /* Rounded corners */
+	cursor: pointer;
+	margin-left: 20px;
+}
+
+.button.red:hover {
+	background-color: darkred; /* Dark red on hover for the red button */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure body takes at least full height */
+    font-family: 'Roboto', sans-serif; 
+}
+
+.content {
+    flex: 1; /* Allow content to grow and take available space */
+}
+
+.footer {
+	margin-top: 20px; 
+    background-color: #f1f1f1; /* Your desired background color */
+    padding: 20px 0; /* 20px padding for both top and bottom */
+    text-align: center; /* Center the footer text */
+    width: 100%; /* Ensure the footer spans the full width */
+}
+
+.footer .button-container {
+    margin: 0; /* Remove any margin from the button container */
+}
+
+.footer a {
+    margin: 0 10px; /* Optional: add horizontal spacing between buttons */
+}
+
+.footer p {
+    margin: 0; /* Remove margin from any paragraph elements */
+}
+
+
+.button-container {
+    display: flex; /* Use Flexbox */
+    justify-content: flex-start; /* Align buttons to the start */
+    margin-top: 20px; /* Space above the button container */
+}
+.button-form {
+    display: inline-block; /* Allows forms to be side by side */
+    margin-right: 10px;   /* Adds space between buttons */
+}
+
+.button-icon {
+    background: none;      /* Removes default button styling */
+    border: none;          /* Removes border */
+    cursor: pointer;       /* Changes cursor to pointer on hover */
+}
+
+.button-icon i {
+    font-size: 20px;       /* Sets icon size */
+}
+
+.update-icon {
+    color: blue;           /* Color for the update icon */
+}
+
+.delete-icon {
+    color: red;            /* Color for the delete icon */
+}
+
+.add-employee-form {
+    margin-top: 10px; /* Space above the button */ 
+}
+
+.add-icon {
+    color: green; /* Icon color */
+    margin-right: 5px; /* Space between icon and text */
+}
+
+
+.centered {
+	text-align: center; /* Center text horizontally */
+	vertical-align: middle; /* Center text vertically */
+	height: 20px; /* Set a specific height for vertical centering */
+	padding: 10px; /* Add some padding */
+	border: 1px solid #ccc; /* Optional: Add borders */
+}
+
+.invisible {
+	opacity: 0; /* Make it fully transparent */
+	position: relative; /* Keep it in the flow */
+	pointer-events: auto; /* Keep it interactive */
+}
+
+.button {
+	padding: 3px 3px;
+	font-size: 16px;
+	color: black;
+	background-color: #f8f9fa; /* Bootstrap primary color */
+	text-align: center;
+	text-decoration: none; /* Remove underline */
+	border-radius: 4px; /* Rounded corners */
+	border: 2px solid #ccc;
+	cursor: pointer;
+	margin-left: 20px;
+}
+
+.button:hover {
+	background-color: #d3d3d3; /* Darker shade on hover */
+}
